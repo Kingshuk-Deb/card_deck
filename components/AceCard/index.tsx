@@ -1,0 +1,22 @@
+import React from "react";
+import styles from "../../styles/Card.module.css";
+
+const AceCard = ({ cardType, cardLogo }: any) => {
+  return (
+    <div className={styles.any_card_test_container}>
+      <div className={styles.any_card_test_top}>
+        <div>{cardType}</div>
+        <div>{cardLogo}</div>
+      </div>
+      <div className={styles.most_card_leaves_container_coloumn}>
+        <div>{cardLogo}</div>
+      </div>
+      <div className={styles.any_card_test_bottom}>
+        <div>{cardType}</div>
+        <div>{cardLogo}</div>
+      </div>
+    </div>
+  );
+};
+
+export default AceCard;
