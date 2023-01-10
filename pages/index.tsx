@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ecommerce Product</title>
+        <title>Deck of Cards</title>
         <meta name="description" content="Created by Kingshuk Deb" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
